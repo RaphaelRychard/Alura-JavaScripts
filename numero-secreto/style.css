@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --font-family: 'Mukta', sans-serif !important;
+    --bg-color: #31304D;
+    --primary-color: #B6BBC4;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-family);
+    box-sizing: border-box;
+    font-style: normal;
+    font-weight: normal;
+}
+
+body{
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+
+    font-size: 24px;
+    text-align: center;
+
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 30px;
+
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 5px;
+}
+
+h2 {
+    font-size: 4em;
+}
+
+h3 {
+    font-size: 1.4em;
+    margin-bottom: 20px;
+}
+
+.mansgem {
+    font-size: 1.1em;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    border: 2px solid var(--primary-color);
+    padding: 15px 30px;
+    margin: 15px;
+    font-size: 3em;
+}
+
+.btn-jogar {
+    padding: 8px 15px;
+    border: none;
+    outline: none;
+    background-color: var(--primary-color);
+    border-radius: 25px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 200ms linear all;
+}
+
+.btn-jogar:hover {
+    background-color: #1b7ffc;
+    transform: scale(1.05);
+    color: whitesmoke;
+}
