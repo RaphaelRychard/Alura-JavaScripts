@@ -1,3 +1,3 @@
 #Projetos JS
 
-- meus projetos em JavaScripts
+- Meus projetos em feitos em JavaScript
