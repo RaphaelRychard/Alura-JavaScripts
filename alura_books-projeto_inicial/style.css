@@ -10,6 +10,7 @@
   --text-tag-color: #9c9c9c;
 }
 
+
 body {
   font-family: 'Poppins';
 }
@@ -21,7 +22,7 @@ body {
 
 .header {
   text-align: center;
-  width: 100%;
+  width: calc(100% - 15);
   background-color: var(--bg-color);
   margin: 15px 15px;
 }
