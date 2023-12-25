@@ -1,7 +1,6 @@
 const elementInsertBooks = document.querySelector('#livros')
 const elementValueAvailableBooks = document.querySelector('#valor_total_livros_disponiveis')
 
-
 function showBooks(listBooks) {
     elementValueAvailableBooks.innerHTML = ''
     elementInsertBooks.innerHTML = ' '
